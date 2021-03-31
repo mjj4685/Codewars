@@ -1,2 +1,2 @@
 # Codewars
-Log of codewars challenges
+Log of codewars challenges.
