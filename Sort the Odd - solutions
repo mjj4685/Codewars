@@ -1,0 +1,72 @@
+Codewars - solutions
+
+Sort the Odd 
+-----------------------------------
+
+=begin
+
+Others:
+
+def sort_array(source_array)
+  odds = source_array.select(&:odd?).sort
+  source_array.map { |n| n.even? ? n : odds.shift }
+end
+
+
+def sort_array(xs)
+  odd = xs.select(&:odd?).sort.each
+  xs.map{ |x| x.odd? ? odd.next : x }
+end
+
+def sort_array(source_array)
+  odds = source_array.select(&:odd?).sort
+  source_array.map { |e| e.odd? ? odds.shift : e }
+end
+
+def sort_array(source_array)
+  odds = source_array.select{ |v| v.odd? }.sort
+  source_array.map { |v| v.even? ? v : odds.shift }
+end
+
+def sort_array(input)
+  odds = input.select(&:odd?).sort
+  
+  input.map { |n| n.even? ? n : odds.shift }
+end
+
+def sort_array(source_array)
+  odds = source_array.select(&:odd?).sort
+  source_array.map { |i| i.even? ? i : odds.shift }
+end
+
+def sort_array(arr)
+  odds = arr.select(&:odd?).sort
+  arr.map { |num| num.odd? ? odds.shift : num }
+end
+
+def sort_array(arr)
+  odds = arr.select(&:odd?).sort
+  arr.map{|m| m.odd? ? odds.shift : m}
+end
+
+def sort_array(arr)
+  odd_sorted = arr.select(&:odd?).sort
+  arr.map { |input| input.odd? ? odd_sorted.shift : input }
+end
+
+
+def sort_array(a)
+  odds = a.select { |x| x.odd? }.sort
+
+  a.map do |el|
+    if el.odd?
+      odds.shift
+    else
+      el
+    end
+  end
+end
+
+
+
+=end
