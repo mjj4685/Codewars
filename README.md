@@ -11,9 +11,9 @@ https://www.codewars.com/users/mjj4685
 
 
 
-# What is CodeWars?
+## What is CodeWars?
 
-It's a cool website where you face challenges and you get leveled by how well you perform.
+# It's a cool website where you face challenges and you get leveled by how well you perform.
 
 
 # Leveling System
