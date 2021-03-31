@@ -1,0 +1,200 @@
+=begin
+#Codewars Solutions - Ruby
+Jaden Casing Strings 
+-------------------------------------------
+Description:
+Jaden Smith, the son of Will Smith, is the star of films such as The Karate Kid (2010) and After Earth (2013). Jaden is also known for some of his philosophy that he delivers via Twitter. When writing on Twitter, he is known for almost always capitalizing every word. For simplicity, you'll have to capitalize each word, check out how contractions are expected to be in the example below.
+Your task is to convert strings to how they would be written by Jaden Smith. The strings are actual quotes from Jaden Smith, but they are not capitalized in the same way he originally typed them.
+Example:
+Not Jaden-Cased: "How can mirrors be real if our eyes aren't real"
+Jaden-Cased:     "How Can Mirrors Be Real If Our Eyes Aren't Real"
+
+Mine:
+=end
+
+class String
+  def toJadenCase
+    split(" ").map { |x| x.capitalize }.join(" ")
+  end
+End
+
+=begin
+
+Others:
+
+class String
+  def toJadenCase
+    self.split.map(&:capitalize).join(" ")
+  end
+end
+
+class String
+  def toJadenCase
+    split.map(&:capitalize).join(' ')
+  end
+end
+
+class String
+  def toJadenCase
+   self.split(' ').map { |e| e.capitalize }.join(' ')
+  end
+end
+
+class String
+  def toJadenCase
+    self.split.map{ |word| word.capitalize }.join(' ')
+  end
+end
+
+class String
+  def toJadenCase
+    self.gsub(Regexp.union(/^./, /\s\w/), &:upcase)
+  end
+end
+
+class String
+  def toJadenCase
+    split(' ').map(&:capitalize) * ' '
+  end
+end
+
+class String
+  def toJadenCase
+    self.split.map(&:capitalize)*' '
+  end
+end
+
+class String
+  def toJadenCase
+    self.gsub(/(\s|^)\w/, &:upcase)
+  end
+end
+
+class String
+  def toJadenCase
+    gsub(/[\w']+/, &:capitalize)
+  end
+end
+
+class String
+  def toJadenCase()
+    self.split.each{|x| x.capitalize! }.join(' ')
+  end
+end
+
+class String
+  def toJadenCase
+    self.gsub(/\S+/, &:capitalize)
+  end
+end
+
+class String
+  def toJadenCase
+    gsub(/\w+\S*\w*/, &:capitalize)
+  end
+end
+
+class String
+  def toJadenCase
+    capitalize.gsub(/(\s)([a-z])/) { $1 << $2.upcase}
+  end
+end
+
+class String 
+  def toJadenCase
+    results = []
+    split.each do |word|
+      results << word.capitalize
+    end
+    results.join(' ')
+  end
+end
+
+class String
+  def toJadenCase
+    gsub(/([\w'-]+)/, &:capitalize)
+  end
+end
+
+class String
+  def toJadenCase
+    self.gsub(/(?>^| )[a-z]/, &:upcase)
+  end
+end
+
+class String
+  def toJadenCase
+    arrJadenCase = []
+    
+    arr = self.split(' ')
+    arr.each { |item| arrJadenCase << item.capitalize() }
+      
+    arrJadenCase.join(' ')
+  end
+end
+
+class String
+  def toJadenCase()
+    re = self.split.map do |string|
+      string[0] = string[0].capitalize
+      string
+    end
+    re.join(' ')
+  end
+end
+
+class String
+  def toJadenCase
+    solution = Array.new
+    self.split(" ").each do |i|
+      solution.push(i.capitalize)
+end
+return solution.join(" ")
+
+  end
+end
+
+class String
+  def toJadenCase
+    
+    array = split
+    new_array = []
+    
+    array.each do |word|
+      new_array << word.capitalize
+    end
+    
+    answer = new_array.join(' ')
+    return answer  
+    
+  end
+end
+
+
+class String
+  def toJadenCase
+    return self.downcase.gsub(/(^\w)|( \w)/) { |match| match.upcase }
+  end
+end
+
+class String
+  def toJadenCase
+    split(' ').each { |str| str[0] = str[0].upcase }.join(' ')
+  end
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=end
