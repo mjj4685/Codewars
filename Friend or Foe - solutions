@@ -1,0 +1,126 @@
+=begin
+
+Codewar - solutions
+
+Friend or Foe 
+
+Others:
+
+=end
+=begin
+
+def friend(friends)
+  friends.grep /^\w{4}$/
+end
+
+def friend(friends)
+  friends.reject{|f|f.length != 4}
+end
+
+def friend(friends)
+  #your code here
+  friend_array = []
+  friends.each { |name|
+    if name.length == 4
+      friend_array << name
+    end
+  }
+  return friend_array
+end
+
+FRIEND_NAME_LENGTH = 4
+
+def friend(friends)
+  #your code here
+  friends.select { |friend| friend.length == FRIEND_NAME_LENGTH }
+end
+
+def friend(friends)
+  friends.select {|n| n if n.size == 4}
+end
+
+def friend(friends)
+  friends.delete_if {|s| s.length != 4}
+end
+
+
+ friend(friends)
+  new_arr = []
+  friends.each do |name|
+    if name.length == 4
+      new_arr << name
+    end
+  end
+  return new_arr
+end
+  
+ def friend(friends)
+  p friends.map { |s| s if s.length === 4 }.compact
+end
+
+def friend(friends)
+  friends.delete_if { |name| !name.size.eql?(4) }
+end
+
+def friend(friends)
+  friends = friends.select{|friend| friend.length == 4}
+  friends.nil? ? [] : friends
+end
+
+def friend(friends)
+a = []
+  friends.select do |element|
+   element.length == 4
+  end
+end
+
+def friend(friends)
+  friends.select { |string| string.length == 4 }
+end
+
+def friend(friends)
+  friend_name_size = 4
+  friends.select { |s| s.size == friend_name_size }
+end
+
+def friend(friends)
+  real_friends = []
+  friends.each do | friend |
+    if friend.length == 4
+      real_friends.push(friend)
+    end
+  end
+  return real_friends
+end
+
+def friend(friends)
+  pals = []
+  friends.each { |x| pals.push(x) if x.length == 4 }
+  pals
+end
+
+def friend(friends)
+  friends.grep /\A[[:alpha:]]{4}\z/
+end
+
+def friend(friends)
+  myfriends = []
+  friends.each do |friend|
+    if friend.length() == 4
+      myfriends << friend
+    end
+  end
+  myfriends
+end
+
+=end
+
+
+
+
+
+
+
+  
+  
+
