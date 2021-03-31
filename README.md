@@ -9,18 +9,18 @@ https://www.codewars.com/users/mjj4685
 
 <img src="https://media.giphy.com/media/YWUpVw86AtIbe/giphy.gif" width="300px">
 
----------------------------------------
+
 
 # What is CodeWars?
 
 It's a cool website where you face challenges and you get leveled by how well you perform.
 
--------------------------------------
+
 # Leveling System
 
 <img src="https://camo.githubusercontent.com/5f28e2e61b2abbc1144a892d684a6b87e58f5b10526170cf7496012a3dbe08bb/68747470733a2f2f692e696d6775722e636f6d2f566d3737584d762e706e67" alt="CodeWars levels" data-canonical-src="https://i.imgur.com/Vm77XMv.png" style="max-width:100%;">
 
------------------------------------
+
 
 # Log of Challenges
 
