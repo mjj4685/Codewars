@@ -12,6 +12,11 @@ https://www.codewars.com/users/mjj4685
 
 https://giphy.com/gifs/8UGFw1hWy5FE4m3R4F/html5
 
+<img src="https://media.giphy.com/media/DBW3BniaWrFo4/giphy.gif" width="300px">
+
+https://giphy.com/embed/8UGFw1hWy5FE4m3R4F
+
+<img src="https://giphy.com/embed/8UGFw1hWy5FE4m3R4F" width="300px">
 
 
 ---------------------------------------
