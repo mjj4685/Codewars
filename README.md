@@ -41,4 +41,6 @@ It's a cool website where you face challenges and you get leveled by how well yo
 
 <li wfd-id="71"><a href="https://github.com/mjj4685/Codewars/blob/10a2b662e4dddff4cab21b3114fbb35d1785d523/Jaden%20Casing%20Strings-">Jaden Casing Strings</a> - 7 kyu</li>
 
+<li wfd-id="71"><a href="https://github.com/mjj4685/Codewars/blob/c0c0b640186129bb40e5a4c79fca6360fe29f045/Sort%20the%20Odd">Sort the Odd</a> - 6 kyu</li>
 
+<li wfd-id="71"><a href="https://github.com/mjj4685/Codewars/blob/10a2b662e4dddff4cab21b3114fbb35d1785d523/Jaden%20Casing%20Strings-">Friend or Foe?</a> - 7 kyu</li>
