@@ -6,6 +6,8 @@ https://www.codewars.com/users/mjj4685
 
 <img src="https://camo.githubusercontent.com/992e0931193b99b7a0d4953d46aa2494b8d2dc7c37b9ab80ff5fd5731126bf11/68747470733a2f2f7777772e636f6465776172732e636f6d2f75736572732f6d6a6a343638352f6261646765732f6c61726765" alt="Profile badge" data-canonical-src="https://www.codewars.com/users/mjj4685/badges/large" style="max-width:100%;">
 
+<iframe src="https://giphy.com/embed/8UGFw1hWy5FE4m3R4F" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/video-games-8UGFw1hWy5FE4m3R4F">via GIPHY</a></p>
+
 
 
 ---------------------------------------
