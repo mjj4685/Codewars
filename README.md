@@ -1,6 +1,6 @@
 # Codewars
 
-This is the GitHub repository where I save copies of the katas I've completed on <a href="https://www.codewars.com/" rel="nofollow">codewars.com</a>
+This is the GitHub repository where I save copies of the katas I've completed on <a href="https://www.codewars.com/" rel="nofollow">codewars.com</a> :
 
 <img src="https://camo.githubusercontent.com/70e363fa005a11d7235db3cacde4b3ef373f5e22f8bc4b79583950618cd2100f/68747470733a2f2f7777772e636f6465776172732e636f6d2f75736572732f6875676d616e72697175652f6261646765732f6c61726765" alt="Profile badge" data-canonical-src="https://www.codewars.com/users/hugmanrique/badges/large" style="max-width:100%;">
 
