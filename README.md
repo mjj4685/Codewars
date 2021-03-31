@@ -1,6 +1,6 @@
 # Codewars
 
-## This is the GitHub repository where I save copies of the katas I've completed on <a href="https://www.codewars.com/" rel="nofollow">codewars.com</a> : https://www.codewars.com/users/mjj4685
+## This is the GitHub repository where I save copies of the katas I've completed at :  https://www.codewars.com/users/mjj4685
 
 
 
