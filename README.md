@@ -40,3 +40,5 @@ It's a cool website where you face challenges and you get leveled by how well yo
 
 
 <li wfd-id="71"><a href="/hugmanrique/CodeWars/blob/master/js/beta/jon_parents.js">Jaden Casing Strings</a> - 7 kyu</li>
+
+https://github.com/mjj4685/Codewars/blob/10a2b662e4dddff4cab21b3114fbb35d1785d523/Jaden%20Casing%20Strings-
