@@ -5,6 +5,11 @@ This is the GitHub repository where I save copies of the katas I've completed on
 https://www.codewars.com/users/mjj4685/badges/large
 
 
+https://www.codewars.com/users/mjj4685
+
+
+<img src="https://www.codewars.com/users/mjj4685/badges/large" alt="Profile badge" data-canonical-src="https://www.codewars.com/users/mjj4685/badges/large" style="max-width:100%;">
+
 ---------------------------------------
 
 # What is CodeWars?
