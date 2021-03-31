@@ -1,0 +1,183 @@
+# Jaden Casing Strings
+Codewars solutions
+
+
+=begin
+Others:
+
+class String
+  def toJadenCase
+    self.split.map(&:capitalize).join(" ")
+  end
+end
+
+class String
+  def toJadenCase
+    split.map(&:capitalize).join(' ')
+  end
+end
+
+class String
+  def toJadenCase
+   self.split(' ').map { |e| e.capitalize }.join(' ')
+  end
+end
+
+class String
+  def toJadenCase
+    self.split.map{ |word| word.capitalize }.join(' ')
+  end
+end
+
+class String
+  def toJadenCase
+    self.gsub(Regexp.union(/^./, /\s\w/), &:upcase)
+  end
+end
+
+class String
+  def toJadenCase
+    split(' ').map(&:capitalize) * ' '
+  end
+end
+
+class String
+  def toJadenCase
+    self.split.map(&:capitalize)*' '
+  end
+end
+
+class String
+  def toJadenCase
+    self.gsub(/(\s|^)\w/, &:upcase)
+  end
+end
+
+class String
+  def toJadenCase
+    gsub(/[\w']+/, &:capitalize)
+  end
+end
+
+class String
+  def toJadenCase()
+    self.split.each{|x| x.capitalize! }.join(' ')
+  end
+end
+
+class String
+  def toJadenCase
+    self.gsub(/\S+/, &:capitalize)
+  end
+end
+
+class String
+  def toJadenCase
+    gsub(/\w+\S*\w*/, &:capitalize)
+  end
+end
+
+class String
+  def toJadenCase
+    capitalize.gsub(/(\s)([a-z])/) { $1 << $2.upcase}
+  end
+end
+
+class String 
+  def toJadenCase
+    results = []
+    split.each do |word|
+      results << word.capitalize
+    end
+    results.join(' ')
+  end
+end
+
+class String
+  def toJadenCase
+    gsub(/([\w'-]+)/, &:capitalize)
+  end
+end
+
+class String
+  def toJadenCase
+    self.gsub(/(?>^| )[a-z]/, &:upcase)
+  end
+end
+
+class String
+  def toJadenCase
+    arrJadenCase = []
+    
+    arr = self.split(' ')
+    arr.each { |item| arrJadenCase << item.capitalize() }
+      
+    arrJadenCase.join(' ')
+  end
+end
+
+class String
+  def toJadenCase()
+    re = self.split.map do |string|
+      string[0] = string[0].capitalize
+      string
+    end
+    re.join(' ')
+  end
+end
+
+class String
+  def toJadenCase
+    solution = Array.new
+    self.split(" ").each do |i|
+      solution.push(i.capitalize)
+end
+return solution.join(" ")
+
+  end
+end
+
+class String
+  def toJadenCase
+    
+    array = split
+    new_array = []
+    
+    array.each do |word|
+      new_array << word.capitalize
+    end
+    
+    answer = new_array.join(' ')
+    return answer  
+    
+  end
+end
+
+
+class String
+  def toJadenCase
+    return self.downcase.gsub(/(^\w)|( \w)/) { |match| match.upcase }
+  end
+end
+
+class String
+  def toJadenCase
+    split(' ').each { |str| str[0] = str[0].upcase }.join(' ')
+  end
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=end
