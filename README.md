@@ -2,7 +2,7 @@
 
 
 
-## This is the GitHub repository where I save copies of the katas I've completed at :  https://www.codewars.com/users/mjj4685
+This is the GitHub repository where I save copies of the katas I've completed at :  https://www.codewars.com/users/mjj4685
 
 
 
@@ -15,20 +15,20 @@
 
 
 
-# What is CodeWars?
+##  What is CodeWars?
 
 
 
 
 
-## It's a cool website where you face challenges and you get leveled by how well you perform.
+It's a cool website where you face challenges and you get leveled by how well you perform.
 
 
 
 
 
 
-# Leveling System
+## Leveling System
 
 <img src="https://camo.githubusercontent.com/5f28e2e61b2abbc1144a892d684a6b87e58f5b10526170cf7496012a3dbe08bb/68747470733a2f2f692e696d6775722e636f6d2f566d3737584d762e706e67" alt="CodeWars levels" data-canonical-src="https://i.imgur.com/Vm77XMv.png" style="max-width:100%;">
 
