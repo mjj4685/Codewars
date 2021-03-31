@@ -10,4 +10,4 @@ It's a cool website where you face challenges and you get leveled by how well yo
 
 
 
-<li wfd-id="71">::marker<a href="/hugmanrique/CodeWars/blob/master/js/beta/jon_parents.js">Jon's Parents</a> - Beta</li>
+<li wfd-id="71"><a href="/hugmanrique/CodeWars/blob/master/js/beta/jon_parents.js">Jon's Parents</a> - Beta</li>
